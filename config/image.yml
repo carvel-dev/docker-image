@@ -1,0 +1,23 @@
+#@ load("@ytt:data", "data")
+
+image: k14s/image-test
+
+---
+apiVersion: kbld.k14s.io/v1alpha1
+kind: Sources
+sources:
+- image: k14s/image-test
+  path: .
+  docker:
+    build:
+      #! Always rebuild image
+      pull: true
+      noCache: true
+
+#@ if/end data.values.push_images:
+---
+apiVersion: kbld.k14s.io/v1alpha1
+kind: ImageDestinations
+destinations:
+- image: k14s/image-test
+  newImage: k14s/image

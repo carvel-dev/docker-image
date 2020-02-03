@@ -10,7 +10,7 @@ Image is based on latest `ubuntu`. It includes:
 - [kwt](https://github.com/k14s/kwt)
 - [imgpkg](https://github.com/k14s/imgpkg)
 
-[`published.yml`](published.yml) includes full URL with digest of the latest build.
+Note: currently we do not publish `latest` tag (custom tagging is not supported by kbld at the moment), hence please use reference found under `image` key in [`published.yml`](published.yml).
 
 ## Development
 

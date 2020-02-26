@@ -9,6 +9,7 @@ Image is based on latest `ubuntu`. It includes:
 - [kapp](https://get-kapp.io)
 - [kwt](https://github.com/k14s/kwt)
 - [imgpkg](https://github.com/k14s/imgpkg)
+- [vendir](https://github.com/k14s/vendir)
 
 Note: currently we do not publish `latest` tag (custom tagging is not supported by kbld at the moment), hence please use reference found under `image` key in [`published.yml`](published.yml).
 

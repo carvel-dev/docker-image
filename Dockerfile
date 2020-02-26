@@ -5,4 +5,4 @@ RUN apt-get -y update && apt-get install -y wget perl ca-certificates && update-
 
 RUN bash -c "set -eo pipefail; wget -O- https://k14s.io/install.sh | bash"
 
-RUN ytt version && kapp version && kbld version && kwt version && imgpkg version
+RUN ytt version && kapp version && kbld version && kwt version && imgpkg version && vendir version

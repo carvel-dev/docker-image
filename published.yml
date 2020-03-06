@@ -1,12 +1,13 @@
-image: index.docker.io/k14s/image@sha256:499518f4e7f7968e1b8057ae76bd2f5aeb286a2d9adedf3ae1a0a1b680f6bac9
+---
+image: index.docker.io/k14s/image@sha256:9d03eff289474e7c5c796de7a31d4423078ab4f0369c8acd4b3190f143d0f6ce
 metadata:
   annotations:
     kbld.k14s.io/images: |
       - Metas:
-        - Path: /Users/pivotal/workspace/k14s-go/src/github.com/k14s/docker-image
+        - Path: /Users/pivotal/workspace/ytt-go/src/github.com/k14s/docker-image
           Type: local
-        - Dirty: true
-          RemoteURL: git@github.com:k14s/docker-image.git
-          SHA: 40088e8ae442f9ddd0904d786fe019939106edfb
+        - Dirty: false
+          RemoteURL: git@github.com:k14s/docker-image
+          SHA: d3c91b1121d0fb4adb41b10486a675eada477370
           Type: git
-        URL: index.docker.io/k14s/image@sha256:499518f4e7f7968e1b8057ae76bd2f5aeb286a2d9adedf3ae1a0a1b680f6bac9
+        URL: index.docker.io/k14s/image@sha256:9d03eff289474e7c5c796de7a31d4423078ab4f0369c8acd4b3190f143d0f6ce

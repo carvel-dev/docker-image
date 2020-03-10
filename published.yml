@@ -1,5 +1,5 @@
 ---
-image: index.docker.io/k14s/image@sha256:9d03eff289474e7c5c796de7a31d4423078ab4f0369c8acd4b3190f143d0f6ce
+image: index.docker.io/k14s/image@sha256:90d8f51f9b5257bbcc70260606b8e914f7f353db616a5c090443fbf085c12383
 metadata:
   annotations:
     kbld.k14s.io/images: |
@@ -8,6 +8,6 @@ metadata:
           Type: local
         - Dirty: false
           RemoteURL: git@github.com:k14s/docker-image
-          SHA: d3c91b1121d0fb4adb41b10486a675eada477370
+          SHA: 066da768bf64944ec3cdad31769345468f8584d5
           Type: git
-        URL: index.docker.io/k14s/image@sha256:9d03eff289474e7c5c796de7a31d4423078ab4f0369c8acd4b3190f143d0f6ce
+        URL: index.docker.io/k14s/image@sha256:90d8f51f9b5257bbcc70260606b8e914f7f353db616a5c090443fbf085c12383

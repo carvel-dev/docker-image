@@ -11,7 +11,7 @@ Image is based on latest `ubuntu`. It includes:
 - [imgpkg](https://github.com/k14s/imgpkg)
 - [vendir](https://github.com/k14s/vendir)
 
-Note: currently we do not publish `latest` tag (custom tagging is not supported by kbld at the moment), hence please use reference found under `image` key in [`published.yml`](published.yml).
+Note: please use reference found under `image` key in [`published.yml`](published.yml) (alternatively we started including `latest` tag).
 
 ## Development
 

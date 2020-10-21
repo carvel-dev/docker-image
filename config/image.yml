@@ -21,3 +21,5 @@ kind: ImageDestinations
 destinations:
 - image: k14s/image-test
   newImage: k14s/image
+  tags:
+  - latest

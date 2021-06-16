@@ -1,5 +1,5 @@
 ---
-image: index.docker.io/k14s/image@sha256:4fe3658b9ea360605fd8710eb8bbebc00054cd7401aa4ddd4e75a37acb263d88
+image: index.docker.io/k14s/image@sha256:162ac7dbd54a5dd0d9fcdd1d815f0ec449313c4b82f5a095a20adcf61a182017
 metadata:
   annotations:
     kbld.k14s.io/images: |
@@ -8,9 +8,9 @@ metadata:
           Type: local
         - Dirty: false
           RemoteURL: git@github.com:vmware-tanzu/carvel-docker-image
-          SHA: fc7c864111b628cb00ede4975fb49e2fc3d1cb95
+          SHA: dd00b6ac5f012ddc656472b757081892a0fd254d
           Type: git
         - Tags:
           - latest
           Type: tagged
-        URL: index.docker.io/k14s/image@sha256:4fe3658b9ea360605fd8710eb8bbebc00054cd7401aa4ddd4e75a37acb263d88
+        URL: index.docker.io/k14s/image@sha256:162ac7dbd54a5dd0d9fcdd1d815f0ec449313c4b82f5a095a20adcf61a182017

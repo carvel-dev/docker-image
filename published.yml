@@ -1,16 +1,16 @@
 ---
-image: index.docker.io/k14s/image@sha256:162ac7dbd54a5dd0d9fcdd1d815f0ec449313c4b82f5a095a20adcf61a182017
+image: index.docker.io/k14s/image@sha256:5d1b60d46c6503a0c44abb5c0ccce93ac1c39fd1241671f79df985688a2859c7
 metadata:
   annotations:
     kbld.k14s.io/images: |
       - Metas:
-        - Path: /Users/dk/workspace/k14s-go/src/github.com/vmware-tanzu/carvel-docker-image
+        - Path: /Users/dk/workspace/k14s-go/src/github.com/k14s/docker-image
           Type: local
         - Dirty: false
-          RemoteURL: git@github.com:vmware-tanzu/carvel-docker-image
-          SHA: dd00b6ac5f012ddc656472b757081892a0fd254d
+          RemoteURL: git@github.com:k14s/docker-image
+          SHA: 642a50251c3bde837ae869771bd8f37790c4ed88
           Type: git
         - Tags:
           - latest
           Type: tagged
-        URL: index.docker.io/k14s/image@sha256:162ac7dbd54a5dd0d9fcdd1d815f0ec449313c4b82f5a095a20adcf61a182017
+        URL: index.docker.io/k14s/image@sha256:5d1b60d46c6503a0c44abb5c0ccce93ac1c39fd1241671f79df985688a2859c7

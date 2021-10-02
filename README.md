@@ -4,7 +4,7 @@
 
 Source for [docker.io/k14s/image](https://hub.docker.com/r/k14s/image) that includes various tools under k14s.
 
-Image is based on latest `ubuntu`. It includes:
+This is a distroless image. It contains:
 
 - [ytt](https://get-ytt.io)
 - [kbld](https://get-kbld.io)
@@ -12,8 +12,26 @@ Image is based on latest `ubuntu`. It includes:
 - [kwt](https://github.com/k14s/kwt)
 - [imgpkg](https://github.com/k14s/imgpkg)
 - [vendir](https://github.com/k14s/vendir)
+- ca-cert store (latest from Ubuntu)
 
-Note: please use reference found under `image` key in [`published.yml`](published.yml) (alternatively we started including `latest` tag).
+## Usage
+
+```bash
+docker pull k14s/image:latest
+```
+_(the exact digest reference can be found at `image:` in [`published.yml`](published.yml))_
+
+To verify the ca-cert store version:
+
+```bash
+docker run --rm k14s/image:latest /show ca-certificates-version.txt
+```
+
+Use a volume mount to make host files available to contained binaries:
+
+```bash
+docker run --rm -v $(pwd):/host k14s/image:latest /ytt -f /host/config --output-files=/host/output
+```
 
 ### Join the Community and Make Carvel Better
 Carvel is better because of our contributors and maintainers. It is because of you that we can bring great software to the community.

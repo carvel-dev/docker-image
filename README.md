@@ -2,20 +2,19 @@
 
 # docker-image
 
-Source for [docker.io/k14s/image](https://hub.docker.com/r/k14s/image) that includes various tools under k14s.
+Source for [ghcr.io/vmware-tanzu/carvel-docker-image:latest](https://ghcr.io/vmware-tanzu/carvel-docker-image) that includes various Carvel tools.
 
 Image is based on latest `ubuntu`. It includes:
 
-- [ytt](https://get-ytt.io)
-- [kbld](https://get-kbld.io)
-- [kapp](https://get-kapp.io)
+- [ytt](https://carvel.dev/ytt)
+- [kbld](https://carvel.dev/kbld)
+- [kapp](https://carvel.dev/kapp)
 - [kwt](https://github.com/k14s/kwt)
-- [imgpkg](https://github.com/k14s/imgpkg)
-- [vendir](https://github.com/k14s/vendir)
-
-Note: please use reference found under `image` key in [`published.yml`](published.yml) (alternatively we started including `latest` tag).
+- [imgpkg](https://carvel.dev/imgpkg)
+- [vendir](https://carvel.dev/vendir)
 
 ### Join the Community and Make Carvel Better
+
 Carvel is better because of our contributors and maintainers. It is because of you that we can bring great software to the community.
 Please join us during our online community meetings. Details can be found on our [Carvel website](https://carvel.dev/community/).
 
